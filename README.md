@@ -1,5 +1,4 @@
-# lab1
+# How to compile questionB.cpp
 
-How to compile questionB.cpp
-	g++ questionB.cpp -o qusetionB
+g++ questionB.cpp -o questionB
 
