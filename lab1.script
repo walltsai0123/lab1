@@ -1,0 +1,104 @@
+Script started on 2017年03月13日 (週一) 12時55分04秒
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m whoami; pwd
+pd2vm
+/home/pd2vm
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m  git config -l
+user.email=timothy.tsai123@gmail.com
+user.name=walltsai0123
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m  git clone https://github.com/walltsai0123/lab1.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/walltsai0123/lab1.git
+Cloning into 'lab1'...
+remote: Counting objects: 3, done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m ls
+[0m[01;34mbuild-example-Desktop_Qt_5_7_0_GCC_64bit-Debug[0m  [01;34mexample[0m      [01;34mPictures[0m   [01;34mVideos[0m
+[01;34mDesktop[0m                                         [01;34mlab1[0m         [01;34mPublic[0m
+[01;34mDocuments[0m                                       lab1.script  [01;34mQt5.7.0[0m
+[01;34mDownloads[0m                                       [01;34mMusic[0m        [01;34mTemplates[0m
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m clr[Kear
+[H[2J[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cd lab1/
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m ls
+README.md
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m cd
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cat lab1.script 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m mv lan[Kb1.script lab1
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m ls
+[0m[01;34mbuild-example-Desktop_Qt_5_7_0_GCC_64bit-Debug[0m  [01;34mDownloads[0m  [01;34mMusic[0m     [01;34mQt5.7.0[0m
+[01;34mDesktop[0m                                         [01;34mexample[0m    [01;34mPictures[0m  [01;34mTemplates[0m
+[01;34mDocuments[0m                                       [01;34mlab1[0m       [01;34mPublic[0m    [01;34mVideos[0m
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m lab1
+No command 'lab1' found, did you mean:
+ Command 'laby' from package 'laby' (universe)
+lab1: command not found
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cdl [K[K 
+build-example-Desktop_Qt_5_7_0_GCC_64bit-Debug/
+.cache/
+.cinnamon/
+.config/
+.dbus/
+Desktop/
+Documents/
+Downloads/
+example/
+.gconf/
+.gnome2/
+.gnome2_private/
+.gstreamer-0.10/
+lab1/
+.linuxmint/
+.local/
+.macromedia/
+.mozilla/
+Music/
+Pictures/
+Public/
+Qt5.7.0/
+Templates/
+--More--[K[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~ $[00m cd [K lab1/
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlab1.script[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git add lab1.script 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git a[Kstatus
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   lab1.script[m
+
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git commit
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6     File: /home/pd2vm/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is up-to-date with 'origin/master'.[8d#[9d# Changes to be committed:[10d#[9Gnew file:   lab1.script[11d#[22;33H(B[0;7m[ Read 9 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[madding lab1.script[4d[5d[6d[7d[8d#[9;19H[10d[22d[K[11d#[12d[A#[10;19H[A[A#[7;19H[A[A[A[A[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: /home/pd2vm/lab1/.git/COMMIT_EDITMSG    [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;57H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 9 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>[master e1395a3] adding lab1.script
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lab1.script
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   lab1.script[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git aa[Kdsd[K[K[Kdd lav[Kb1.script 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git commit
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6     File: /home/pd2vm/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is ahead of 'origin/master' by 1 commit.[8d#   (use "git push" to publish your local commits)[9d#[10d# Changes to be committed:[11d#[9Gmodified:   lab1.script[12d#[22;32H(B[0;7m[ Read 10 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mcommit labscri[ pt1script[12G.script[22d[K[3;13Hscript[4d#7[4;22r8M[1;24r[4;1H#[5d[1P[5;22r[22;1H
+[1;24r[4;3HPlease enter the commit message for your changes. Lines starting#[Aommit lab1.script[4d[3;19H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[22;33H[1K (B[0;7m[ Cancelled ](B[m[K[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[23d[J[24;80H[24;1H[?1049l[?1l>Aborting commit due to empty commit message.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git statiu[K[Kus
+On branch master
+Your branch is ahead of 'origin/master' by
