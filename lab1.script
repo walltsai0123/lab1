@@ -101,4 +101,69 @@ no changes added to commit (use "git add" and/or "git commit -a")
 [1;24r[4;3HPlease enter the commit message for your changes. Lines starting#[Aommit lab1.script[4d[3;19H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[22;33H[1K (B[0;7m[ Cancelled ](B[m[K[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;19H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[23d[J[24;80H[24;1H[?1049l[?1l>Aborting commit due to empty commit message.
 [01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git statiu[K[Kus
 On branch master
-Your branch is ahead of 'origin/master' by
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   lab1.script[m
+
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git push lab1.script
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: Invalid gitfile format: lab1.script
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m bgit[K[K[K[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   lab1.script[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   lab1.script[m
+
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git a[K[K[K[K[Kls
+lab1.script  README.md
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git adsd[K[Kdf [K[K lab1.script 
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m \[Kgit sty[Katus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   lab1.script[m
+
+[01;32mpd2vm@pd2vm-VirtualBox[01;34m ~/lab1 $[00m git commit
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6     File: /home/pd2vm/lab1/.git/COMMIT_EDITMSG                 [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d# Your branch is ahead of 'origin/master' by 1 commit.[8d#   (use "git push" to publish your local commits)[9d#[10d# Changes to be committed:[11d#[9Gmodified:   lab1.script[12d#[22;32H(B[0;7m[ Read 10 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3d(B[mhjbhbiiuiub[22d(B[0;7mFile to insert [from ./] :                                                      [23;14H(B[m             (B[0;7m^T(B[m To Files[15X[23;53H(B[0;7mM-F(B[m New Buffer[K[24;2H(B[0;7mC(B[m Cancel[17X[24;27H(B[0;7m^X(B[m Execute Command[K[22;28H[33G[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3;12H          [Kcomm
